@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+#canvases {
+  display: flex;
+  width: 100%;
+}
+.canvas-container {
+  flex-shrink: 0;
+  overflow: auto;
+}
+#leftPane {
+  flex-basis: 65%;
+  border: 1px solid #ccc;
+}
+#rightPane {
+  flex-basis: 30%;
+  border: 1px solid #ccc;
+}
+.canvas-container canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #000;
+  cursor: crosshair;
+  margin: 10px auto;
+}
+#downloadLink {
+  margin-left: 10px;
+}
